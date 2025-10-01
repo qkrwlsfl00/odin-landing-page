@@ -1,0 +1,165 @@
+body {
+  font-family: Roboto;
+}
+
+header,
+.hero,
+footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+nav,
+.hero-content,
+.card {
+  box-sizing: border-box;
+  max-width: 900px;
+  margin: auto;
+}
+
+nav {
+  padding: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  margin-right: auto;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 16px;
+  font-size: 18px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.hero-content {
+  display: flex;
+  gap: 32px;
+  justify-content: space-between;
+  padding: 100px 16px;
+}
+
+h2 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.subtext {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero .subtext {
+  margin-bottom: 8px;
+}
+
+button {
+  padding: 8px 32px;
+  color: inherit;
+  background-color: #3882f6;
+  border: 0;
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 8px;
+}
+.image {
+  background-color: #e5e7eb39;
+  flex-shrink: 0;
+  width: 300px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h3 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  margin: 42px;
+}
+
+.container {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.info {
+  flex-basis: 160px;
+}
+.info-image {
+  width: 160px;
+  height: 160px;
+  border: 2px solid #3882f6;
+  border-radius: 16px;
+}
+.info .subtext {
+  color: #1f2937;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 100px 0;
+  font-size: 32px;
+  color: #1f2937;
+  font-weight: 300;
+}
+
+.quote div {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.quote .writer {
+  text-align: right;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.cta {
+  padding: 16px;
+}
+.card {
+  background-color: #3882f6;
+  padding: 32px 64px;
+  margin: 100px auto;
+  color: #e5e7eb;
+  border-radius: 8px;
+  display: flex;
+  gap: 64px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text {
+  font-size: 24px;
+  font-weight: 700;
+  color: #f9faf8;
+}
+
+.card button {
+  border: 2px solid #e5e7eb;
+  flex: 0 0 auto;
+}
+
+footer {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
